@@ -4,8 +4,8 @@ import "./assets/fonts/HankenGrotesk-VariableFont_wght.ttf";
 function App() {
     return (
         <div className="container mx-auto h-screen xl:flex xl:items-center xl:justify-center">
-            <div className="xl:flex xl:items-center xl:justify-center xl:rounded-3xl xl:shadow-xl xl:shadow-light-lavender xl:w-[50%]">
-                <section className="items-center justify-center rounded-b-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue p-4 xl:p-10 text-center xl:flex xl:h-[100%] xl:w-[100%] xl:flex-col xl:rounded-3xl">
+            <div className="xl:flex xl:w-[50%] xl:items-center xl:justify-center xl:rounded-3xl xl:shadow-xl xl:shadow-light-lavender">
+                <section className="items-center justify-center rounded-b-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue p-4 text-center xl:flex xl:h-[100%] xl:w-[100%] xl:flex-col xl:rounded-3xl xl:p-10">
                     <h4 className="mt-3 text-xl font-medium text-gray-300">
                         Your Result
                     </h4>
@@ -30,7 +30,7 @@ function App() {
                         </p>
                     </div>
                 </section>
-                <section className="p-6 xl:w-[100%] xl:rounded-3xl xl:m-6">
+                <section className="p-6 xl:m-6 xl:w-[100%] xl:rounded-3xl">
                     <h3 className="mb-5 text-lg font-bold text-dark-gray-blue">
                         Summary
                     </h3>
